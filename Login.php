@@ -24,6 +24,8 @@
                 mysqli_free_result($res);
                 mysqli_close($conn);
                 exit;
+            }else{
+                $errore=true;
             }
 
         
