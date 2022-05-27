@@ -1,0 +1,251 @@
+form { 
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+#shop{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin:20px;
+}
+
+#shop a{
+    text-align: center;
+    color:#1d4aa8;
+    font-size: 2em;
+}
+
+#shop img{
+    width:4%;
+}
+
+
+#cerca{
+    border-radius: 15px;
+    font-size: 1.5em;
+}
+
+#label{
+    font-size: 2.8em;
+}
+
+#contenuto{
+    border-radius:15px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+
+#giochi_shop{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#giochi_shop div{ 
+    display:flex;
+    align-items: center;
+    background-color: #a8bee0;
+    border-radius:20px;
+    width:70%;
+    margin:10px;
+    flex-direction: row;
+}
+
+#giochi_shop a:visited{
+    color:midnightblue;
+}
+
+#giochi_shop a:link{
+    color:black;
+}
+
+#giochi_shop  p {
+    color:brown;
+    margin:10px;
+    font-size: 2em;
+}
+#giochi_shop div a{
+    margin:30px;
+    font-size: 2em;
+}
+.img{
+    width:25%;
+    margin:10px;
+    border-radius: 20px ;
+    border:3px solid white;
+
+}
+#giochi_shop h1{
+    text-align: center;
+    color:#1d4aa8;
+    font-size: 3em;
+    margin:10px;
+
+}
+
+.acquisto{    
+    width:5% ;
+    margin:25px;
+
+}
+
+@media(max-width:950px){
+
+    .img{
+        width:35%;
+       
+    }
+    #giochi_shop div a {
+        margin: 15px;
+        font-size: 1.7em;
+    }
+
+    #giochi_shop p {
+    
+        font-size: 1.7em;
+    }
+    
+    #shop img{
+        width:5%;
+    }
+    .acquisto{    
+        width:7% ;
+
+    }
+    
+
+}
+@media(max-width:750px){
+    .acquisto{    
+        margin:10px ;
+
+    }
+
+    #shop img{
+        width:6%;
+    }
+}
+
+@media(max-width:650px){
+    
+    
+    .img{
+        width:90%;
+        
+    }
+    #giochi_shop div{
+        width:95%;
+       
+    }
+   
+    #shop img{
+        width:9%;
+    }
+    #giochi_shop div {
+        flex-direction: column;
+        width: 45%;
+        
+    }
+
+    .acquisto{
+        width: 12%;
+    }
+
+    #giochi_shop {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: normal;
+    }
+}
+
+@media(max-width:550px){
+
+
+
+    .acquisto{
+        width: 17%;
+    }
+
+    #giochi_shop p {
+        margin:0px;
+        margin-right: 10px;
+    }
+ 
+    #giochi_shop h1{
+        
+        font-size: 2em;
+    }
+    #giochi_shop div a{
+        margin:20px;
+    }
+    form { 
+        flex-direction: column;
+        margin:10px;
+    }
+    #label{
+        flex-direction: column;
+        font-size: 2em;
+    }
+    #cerca{
+        font-size: 1.2em;
+    }
+    #shop img{
+        width:9%;
+    }
+
+}
+
+@media(max-width:400px){
+
+    #giochi_shop div {
+        
+        width: 75%;
+    }
+    .acquisto {
+        width: 12%;
+    }
+    
+    #shop img{
+        width:11%;
+    }
+}
+
+@media(max-width:335px){
+    
+    #giochi_shop p{
+        margin:0px;
+        margin-bottom:10px;   
+        font-size: 1.5em;
+
+    }
+    #shop img{
+        width:14%;
+    }
+
+   
+    .acquisto{
+        width:15%;
+        
+    }
+    
+    
+    .img{
+       width: 100%;
+        margin-top: 0px;
+    }
+    #giochi_shop div a {
+        margin:0px;
+        font-size: 1.5em;
+    }
+}
+
