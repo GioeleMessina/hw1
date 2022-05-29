@@ -1,6 +1,11 @@
 <?php
     session_start();
 
+    if(!isset($_SESSION['username'])){
+        header("Location: Login.php");
+        exit;
+    }
+
     if(!empty($_POST["user"]) && !empty($_POST["password"])){
 
         $conn=mysqli_connect("localhost","root","","utenti")or die(mysqli_connect_error());
