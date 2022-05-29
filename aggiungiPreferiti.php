@@ -2,6 +2,12 @@
 
     session_start();
     
+   
+   if(!isset($_SESSION['username'])){
+      header("Location: Login.php");
+      exit;
+   }
+    
 //    header('Content-Type: application/json');
     $conn=mysqli_connect("localhost","root","","utenti")or die(mysqli_connect_error());
     $titolo=mysqli_real_escape_string($conn,$_GET['title']);
